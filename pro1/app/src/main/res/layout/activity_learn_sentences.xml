@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/pg02">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!-- عنوان الصفحة -->
+        <TextView
+            android:id="@+id/sentenceText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Press the button to start"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/dark"
+            android:layout_marginBottom="16dp"
+            android:textAlignment="center" />
+
+        <!-- الترجمة -->
+        <TextView
+            android:id="@+id/translationText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Translation will appear here"
+            android:textSize="18sp"
+            android:textColor="@color/dark"
+            android:layout_marginBottom="16dp"
+            android:textAlignment="center" />
+
+        <!-- أزرار لاختيار الجمل -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="24dp">
+
+            <!-- زر لكل جملة -->
+            <Button
+                android:id="@+id/sentenceButton1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How are you?"
+                android:textSize="18sp"
+                android:layout_marginBottom="12dp"
+                android:backgroundTint="@color/dark"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/sentenceButton2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What is your name?"
+                android:textSize="18sp"
+                android:layout_marginBottom="12dp"
+                android:backgroundTint="@color/dark"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/sentenceButton3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Where are you from?"
+                android:textSize="18sp"
+                android:layout_marginBottom="12dp"
+                android:backgroundTint="@color/dark"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/sentenceButton4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="I am learning Android development."
+                android:textSize="18sp"
+                android:layout_marginBottom="12dp"
+                android:backgroundTint="@color/dark"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/sentenceButton5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Can you help me with this problem?"
+                android:textSize="18sp"
+                android:layout_marginBottom="12dp"
+                android:backgroundTint="@color/dark"
+                android:textColor="@color/white" />
+
+            <!-- Newly added buttons -->
+            <Button
+                android:id="@+id/sentenceButton6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What time is it?"
+                android:textSize="18sp"
+                android:layout_marginBottom="12dp"
+                android:backgroundTint="@color/dark"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/sentenceButton7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How much does this cost?"
+                android:textSize="18sp"
+                android:layout_marginBottom="12dp"
+                android:backgroundTint="@color/dark"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/sentenceButton8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Where is the nearest hospital?"
+                android:textSize="18sp"
+                android:layout_marginBottom="12dp"
+                android:backgroundTint="@color/dark"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/sentenceButton9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Do you speak English?"
+                android:textSize="18sp"
+                android:layout_marginBottom="12dp"
+                android:backgroundTint="@color/dark"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/sentenceButton10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Can you recommend a good restaurant?"
+                android:textSize="18sp"
+                android:layout_marginBottom="12dp"
+                android:backgroundTint="@color/dark"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/sentenceButton11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What's the weather like today?"
+                android:textSize="18sp"
+                android:layout_marginBottom="12dp"
+                android:backgroundTint="@color/dark"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/sentenceButton12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How do I get to the city center?"
+                android:textSize="18sp"
+                android:layout_marginBottom="12dp"
+                android:backgroundTint="@color/dark"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/sentenceButton13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What's your favorite food?"
+                android:textSize="18sp"
+                android:layout_marginBottom="12dp"
+                android:backgroundTint="@color/dark"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/sentenceButton14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Can we meet tomorrow?"
+                android:textSize="18sp"
+                android:layout_marginBottom="12dp"
+                android:backgroundTint="@color/dark"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/sentenceButton15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What do you do for work?"
+                android:textSize="18sp"
+                android:layout_marginBottom="12dp"
+                android:backgroundTint="@color/dark"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

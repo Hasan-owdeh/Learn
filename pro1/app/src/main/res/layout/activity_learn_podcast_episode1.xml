@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="72dp"
+    android:background="@drawable/pg02">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="520dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Podcast Episode 1: Daily English"
+            android:textAlignment="center"
+            android:textColor="@color/dark"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="137dp"
+            android:layout_marginBottom="24dp"
+            android:text="In this episode, we will go over essential phrases used in daily conversations."
+            android:textAlignment="center"
+            android:textColor="@color/dark"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/playPodcastButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:backgroundTint="@color/dark"
+            android:text="Play Episode"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

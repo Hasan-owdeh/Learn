@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pg1"
+    tools:context=".MainActivity">
+
+    <!-- Get Started Screen -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="64dp">
+
+        <ImageView
+            android:id="@+id/myImageView"
+            android:layout_width="266dp"
+            android:layout_height="170dp"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Started"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/dark" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start with sign up or sign in"
+            android:textColor="@color/dark_gray_green"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/btnSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="SIGN UP"
+            android:backgroundTint="@color/dark"
+            android:textColor="@color/off_white" />
+
+        <Button
+            android:id="@+id/btnSignIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/dark"
+            android:text="SIGN IN"
+            android:textColor="@color/off_white" />
+
+    </LinearLayout>
+</ScrollView>

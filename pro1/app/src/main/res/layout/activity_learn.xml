@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pg02"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Learn English"
+            android:textSize="26sp"
+            android:textColor="@color/dark"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Section 1: Grammar & Vocabulary -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/off_white"
+            android:padding="20dp"
+            android:layout_marginBottom="20dp"
+            android:elevation="3dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Grammar &amp; Vocabulary"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/dark"
+                android:layout_marginBottom="12dp"
+                android:textAllCaps="true"
+                android:letterSpacing="0.05" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/light_gray"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Pronunciation -->
+            <Button
+                android:id="@+id/pronunciationBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pronunciation of Letters"
+                android:backgroundTint="@color/dark"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:layout_marginBottom="12dp"
+                android:drawableStart="@drawable/ic_sound"
+                android:drawablePadding="8dp"
+                android:paddingStart="12dp"
+                android:textAlignment="textStart" />
+
+            <!-- Vocabulary -->
+            <Button
+                android:id="@+id/vocabularyBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dictionary &amp; Words (300+)"
+                android:backgroundTint="@color/dark"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:layout_marginBottom="12dp"
+                android:drawableStart="@drawable/ic_book"
+                android:drawablePadding="8dp"
+                android:paddingStart="12dp"
+                android:textAlignment="textStart" />
+
+            <Button
+                android:id="@+id/GrammarBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Grammar"
+                android:backgroundTint="@color/dark"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:layout_marginBottom="12dp"
+                android:drawableStart="@drawable/ic_book"
+                android:drawablePadding="8dp"
+                android:paddingStart="12dp"
+                android:textAlignment="textStart" />
+
+
+
+            <!-- Common Sentences Title -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Common Sentences:"
+                android:textSize="16sp"
+                android:textColor="@color/dark"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp" />
+
+            <!-- Sentences -->
+            <Button
+                android:id="@+id/sentencesBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Essential Phrases"
+                android:backgroundTint="@color/dark"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:layout_marginBottom="12dp"
+                android:drawableStart="@drawable/ic_word"
+                android:drawablePadding="8dp"
+                android:paddingStart="12dp"
+                android:textAlignment="textStart" />
+
+            <!-- Words -->
+            <Button
+                android:id="@+id/wordsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Basic Words"
+                android:backgroundTint="@color/dark"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp"
+                android:drawableStart="@drawable/ic_word"
+                android:drawablePadding="8dp"
+                android:paddingStart="12dp"
+                android:textAlignment="textStart" />
+        </LinearLayout>
+
+        <!-- Section 2: Places & Phrases -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/off_white"
+            android:padding="20dp"
+            android:elevation="3dp">
+
+            <Button
+                android:id="@+id/sentences2Btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Phrases &amp; Places"
+                android:backgroundTint="@color/dark"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:drawablePadding="8dp"
+                android:paddingStart="12dp"
+                android:textAlignment="textStart" />
+        </LinearLayout>
+
+        <!-- Section 3: Podcast -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/off_white"
+            android:padding="20dp"
+            android:elevation="3dp"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Podcast"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/dark"
+                android:layout_marginBottom="12dp"
+                android:textAllCaps="true" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/light_gray"
+                android:layout_marginBottom="16dp" />
+
+            <Button
+                android:id="@+id/podcastEpisode1Btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Episode 1: Daily English"
+                android:backgroundTint="@color/dark"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:drawableStart="@drawable/ic_podcast"
+                android:drawablePadding="8dp"
+                android:paddingStart="12dp"
+                android:textAlignment="textStart"
+                android:layout_marginBottom="12dp" />
+
+            <Button
+                android:id="@+id/podcastEpisode2Btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Episode 2: Travel Vocabulary"
+                android:backgroundTint="@color/dark"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:drawableStart="@drawable/ic_podcast"
+                android:drawablePadding="8dp"
+                android:paddingStart="12dp"
+                android:textAlignment="textStart" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

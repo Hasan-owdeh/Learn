@@ -1,0 +1,40 @@
+<resources>
+    <!-- App Title -->
+    <string name="app_title">NexusEnglish</string>
+
+    <!-- Welcome Message -->
+    <string name="welcome_message">Hey! Good to see you again </string>
+
+    <!-- Email and Password -->
+    <string name="email_label">Email</string>
+    <string name="email_hint">Enter your email</string>
+    <string name="password_label">Password</string>
+    <string name="password_hint">Enter your password</string>
+
+    <!-- Login Button -->
+    <string name="login_button">Log in</string>
+
+    <!-- Sign Up Text -->
+    <string name="sign_up_text">Don\'t have an account? Sign up</string>
+
+    <!-- App Description -->
+    <string name="app_description">NexusEnglish is an app that helps you learn English in a simple and interactive way. 🚀</string>
+    <!-- Sign Up Screen Strings -->
+    <string name="sign_up_title">Sign Up</string>
+    <string name="first_name_label">First name</string>
+    <string name="first_name_hint">Enter your first name</string>
+    <string name="second_name_label">Second name</string>
+    <string name="second_name_hint">Enter your second name</string>
+    <string name="birthday_label">Birthday</string>
+    <string name="birthday_hint">DD-MM-YYYY</string>
+    <string name="sign_up_button">Sign Up</string>
+    <string name="terms_and_conditions">I agree to the Terms and Conditions</string>
+    <string name="confirm_password_hint">Confirm your password</string>
+    <string name="already_have_account">Already have an account? Log in</string>
+    <string name="signup_greeting">Hello! let\'s join with us</string>
+    <string name="textLoginLink">Already have an account? Log in</string>
+    <string name="log_in">Log In</string>
+    <string name="hello_let_s_join_with_us">Hello! let\'s join with us</string>
+
+
+</resources>

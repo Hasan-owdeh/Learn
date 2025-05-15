@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/pg02">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vocabulary List"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/dark"
+            android:layout_marginBottom="16dp"
+            android:textAlignment="center" />
+
+
+        <!-- Apple -->
+        <Button
+            android:id="@+id/playAppleButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Apple"
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="@color/dark"
+            android:textColor="@color/white" />
+
+        <!-- Banana -->
+        <Button
+            android:id="@+id/playBananaButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Banana"
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="@color/dark"
+            android:textColor="@color/white" />
+
+        <!-- Cat -->
+        <Button
+            android:id="@+id/playCatButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cat"
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="@color/dark"
+            android:textColor="@color/white" />
+
+        <!-- Dog -->
+        <Button
+            android:id="@+id/playDogButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dog"
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="@color/dark"
+            android:textColor="@color/white" />
+
+        <!-- Elephant -->
+        <Button
+            android:id="@+id/playElephantButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Elephant"
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="@color/dark"
+            android:textColor="@color/white" />
+
+        <!-- Fish -->
+        <Button
+            android:id="@+id/playFishButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fish"
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="@color/dark"
+            android:textColor="@color/white" />
+
+        <!-- Grape -->
+        <Button
+            android:id="@+id/playGrapeButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Grape"
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="@color/dark"
+            android:textColor="@color/white" />
+
+        <!-- House -->
+        <Button
+            android:id="@+id/playHouseButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="House"
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="@color/dark"
+            android:textColor="@color/white" />
+
+        <!-- Ice -->
+        <Button
+            android:id="@+id/playIceButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ice"
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="@color/dark"
+            android:textColor="@color/white" />
+
+        <!-- Jacket -->
+        <Button
+            android:id="@+id/playJacketButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jacket"
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="@color/dark"
+            android:textColor="@color/white" />
+
+        <!-- Key -->
+        <Button
+            android:id="@+id/playKeyButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Key"
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="@color/dark"
+            android:textColor="@color/white" />
+
+        <!-- Lion -->
+        <Button
+            android:id="@+id/playLionButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lion"
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="@color/dark"
+            android:textColor="@color/white" />
+
+        <!-- Mountain -->
+        <Button
+            android:id="@+id/playMountainButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mountain"
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="@color/dark"
+            android:textColor="@color/white" />
+
+        <!-- Notebook -->
+        <Button
+            android:id="@+id/playNotebookButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Notebook"
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="@color/dark"
+            android:textColor="@color/white" />
+
+        <!-- Orange -->
+        <Button
+            android:id="@+id/playOrangeButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Orange"
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="@color/dark"
+            android:textColor="@color/white" />
+
+        <!-- Pen -->
+        <Button
+            android:id="@+id/playPenButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pen"
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="@color/dark"
+            android:textColor="@color/white" />
+
+        <!-- Queen -->
+        <Button
+            android:id="@+id/playQueenButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Queen"
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="@color/dark"
+            android:textColor="@color/white" />
+
+        <!-- Rabbit -->
+        <Button
+            android:id="@+id/playRabbitButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rabbit"
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="@color/dark"
+            android:textColor="@color/white" />
+
+        <!-- Sun -->
+        <Button
+            android:id="@+id/playSunButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sun"
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="@color/dark"
+            android:textColor="@color/white" />
+
+        <!-- Tree -->
+        <Button
+            android:id="@+id/playTreeButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tree"
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="@color/dark"
+            android:textColor="@color/white" />
+
+        <!-- Water -->
+        <Button
+            android:id="@+id/playWaterButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Water"
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="@color/dark"
+            android:textColor="@color/white" />
+
+        <!-- Xylophone -->
+        <Button
+            android:id="@+id/playXylophoneButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Xylophone"
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="@color/dark"
+            android:textColor="@color/white" />
+
+        <!-- Zebra -->
+        <Button
+            android:id="@+id/playZebraButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Zebra"
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="@color/dark"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+</ScrollView>
